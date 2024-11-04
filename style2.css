@@ -1,0 +1,62 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #01a8eb;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    background: linear-gradient(to bottom right, #000428, #004e92); /* Gradient for header */
+    color: white;
+}
+
+.navbar-blur {
+    backdrop-filter: blur(10px); /* Adjust the blur level */
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+}
+
+#heading {
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    padding: 20px; /* Keep padding for heading */
+}
+
+.navbar {
+    background-color: antiquewhite; /* Navbar background color */
+    margin-bottom: 0; /* Remove bottom margin from navbar */
+}
+
+.nav-link {
+    color: #000; /* Link color */
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    color: #007bff; /* Hover color */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    background: linear-gradient(to top left, #000428, #004e92); /* Gradient for footer */
+    color: white;
+}
+
